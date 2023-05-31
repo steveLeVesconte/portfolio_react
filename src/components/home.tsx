@@ -52,7 +52,7 @@ export default function Home(){
             <div className="nav-link-inside-cont">
               <h3 className="nav-label">Public Payment Portal</h3>
               <div className="nav-button-holder">
-                <Link className="g-bitton nav-button" to="/projects/public-payments" >VIEW PROJECT</Link>  
+                <Link className="g-bitton nav-button" to="/projects/public-payment" >VIEW PROJECT</Link>  
               </div>
             </div>
           </div>
