@@ -62,7 +62,7 @@ export default function Home(){
             <div className="nav-link-inside-cont">
               <h3 className="nav-label">Angular Azure B2C Membership Kata</h3>
               <div className="nav-button-holder">
-                <Link className="g-bitton nav-button" to="/projects/angular-azure-go" >VIEW PROJECT</Link>
+                <Link className="g-bitton nav-button" to="/projects/angular-go" >VIEW PROJECT</Link>
               </div>
             </div>
           </div>
