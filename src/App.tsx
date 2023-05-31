@@ -1,14 +1,19 @@
 import React from 'react';
+
 import logo from './logo.svg';
 import './App.css';
+import Header from "./components/common/Header"
 
 function App() {
-  return (
+  return (<>
+    <Header/>
+
+
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          React App 2023 v2. <code>src/App.tsx</code>.
+          React App 2023 v3. <code>src/App.tsx</code>.
         </p>
         <a
           className="App-link"
@@ -20,6 +25,7 @@ function App() {
         </a>
       </header>
     </div>
+    </>
   );
 }
 
