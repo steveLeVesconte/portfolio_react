@@ -88,7 +88,7 @@ export default function PublicAccess() {
         courses. You may also click on the dates and places and companies in the right side panel to further limit
         your search.</p>
       <div className="try-it-button-cont">
-        <a className="wp-block-button__link" href="https://ceucatalog.age.ohio.gov/" target="_blank" rel="https://ceucatalog.age.ohio.gov/ noopener">Open New Tab with CEU Catalog</a>
+        <a className="wp-block-button__link" href="https://ceucatalog.age.ohio.gov/" target="_blank" rel="noopener noreferrer">Open New Tab with CEU Catalog</a>
       </div>
     </div>
   </div>
