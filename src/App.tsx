@@ -2,30 +2,19 @@ import React from 'react';
 
 import logo from './logo.svg';
 import './App.css';
-import Header from "./components/common/Header"
-import Footer from "./components/common/Footer"
-
+import Header from "./components/common/Header";
+import Footer from "./components/common/Footer";
+import { Route, Routes } from "react-router-dom";
+import Home from "./components/home";
+import PublicAccess from "./components/projects/public-access/public-access";
 function App() {
   return (<>
     <Header/>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/projects/public-access" element={<PublicAccess />} />
 
-
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          React App 2023 v0.0.1 <code>src/App.tsx</code>.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    </Routes>
     <Footer></Footer>
     </>
   );
