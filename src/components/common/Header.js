@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom"
 
 
 const Header = () => {
@@ -6,12 +6,12 @@ const Header = () => {
     return (
         <header id="page-header">
         <div id="logo-div">
-          <a className="navlink" href="index.html"><img src="/images/whatIDoLogo.png" alt="portfolio logo" /></a>
+          <Link className="navlink" to="/"><img src="/images/whatIDoLogo.png" alt="portfolio logo" /></Link>
         </div>
         <div id="top-nav-container">
           <nav>
             <ul className="nav-ul">
-              <li>home</li>
+              <li><Link className="navlink" to="/">Home</Link></li>
             </ul>
             </nav>
         </div>
