@@ -14,7 +14,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          React App 2023 v3. <code>src/App.tsx</code>.
+          React App 2023 v0.0.1 <code>src/App.tsx</code>.
         </p>
         <a
           className="App-link"
