@@ -2,11 +2,11 @@ import React from "react";
 
 
 const Header = () => {
-    const activeStyle = { color: "#F15B2A" };
+   
     return (
         <header id="page-header">
         <div id="logo-div">
-          <a className="navlink" href="index.html"><img src="/images/whatIDoLogo.png" style={{width:"100%", height: "auto"}} /></a>
+          <a className="navlink" href="index.html"><img src="/images/whatIDoLogo.png" alt="portfolio logo" /></a>
         </div>
         <div id="top-nav-container">
           <nav>
