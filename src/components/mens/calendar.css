@@ -1,0 +1,16 @@
+
+  .calendar{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr; /* Single column */
+    grid-auto-rows: 1fr; /* Row height */
+    gap: 10px; /* Gap between grid items (optional) */
+  }
+  .grid-item {
+    height: 200px;
+    background-color: #fafafa; /* Example background color */
+    border: #282c34 1px solid;
+    padding: 10px; /* Example padding */
+  }
