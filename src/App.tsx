@@ -7,6 +7,7 @@ import PublicAccess from "./components/projects/public-access/public-access";
 import PublicPayment from './components/projects/public-payment/public-payment';
 import AngularGo from './components/projects/angular-go/angular-go';
 import DockerWordpress from './components/projects/docker-wordpress/docker-wordpress';
+import Calendar from './components/mens/calendar';
 function App() {
   return (<>
     <Header/>
@@ -16,6 +17,7 @@ function App() {
       <Route path="/projects/public-payment" element={<PublicPayment />} />
       <Route path="/projects/angular-go" element={<AngularGo />} />
       <Route path="/projects/docker-wordpress" element={<DockerWordpress />} />
+      <Route path="/calendar" element={<Calendar />} />
       </Routes>
     <Footer></Footer>
     </>
